@@ -4,7 +4,7 @@ const footer = {
 	},
 
 	template: `
-    <mj-wrapper full-width="full-width" background-color="#5020F8">
+    <mj-wrapper background-color="#5020F8">
       <mj-section padding="0 10px" background-color="transparent">
         <mj-column>
             <mj-text font-size="14px" line-height="21px" color="#f5f8f7">

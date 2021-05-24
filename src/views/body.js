@@ -1,11 +1,13 @@
 const util = require('../util');
 
 const { header } = require('../components/header.js');
+const { imageHero } = require('../components/imageHero.js');
 const { footer } = require('../components/footer.js');
 
 const body = {
 	components: {
 		Header: header,
+		ImageHero: imageHero,
 		Footer: footer,
 	},
 
@@ -14,17 +16,15 @@ const body = {
 	},
 
 	template: `
-    <mj-wrapper full-width="full-width" background-color="#5020F8">
-			<mj-section>
-				<mj-column>
-					<mj-image src="../assets/logo.png" />
-				</mj-column>
-			</mj-section>
+		<mj-body>
+			<mj-wrapper background-color="#5020F8">
+			<Header v-bind="{email}" />
 		</mj-wrapper>
     <mj-wrapper>
-      <Header v-bind="{email}"/>
+      <ImageHero v-bind="{email}" />
     </mj-wrapper>
     <Footer v-bind="{email}" />
+		</mj-body>
   `,
 };
 
