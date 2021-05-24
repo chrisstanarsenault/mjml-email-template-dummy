@@ -5,11 +5,13 @@
     "dev": "vite",
     "dev:build": "mkdir dist; node ./build/buildHtmlWithMockData.js > dist/htmlWithMockData.html",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "watch": "onchange 'src/**/*.js' 'src/**/*.json' -- npm run dev:build"
   },
   "dependencies": {
     "@vue/server-renderer": "^3.0.11",
     "mjml": "^4.9.3",
+    "onchange": "^7.1.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {

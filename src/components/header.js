@@ -7,7 +7,7 @@ const header = {
 	},
 
 	template: `
-    <mj-section background-color="transparent">
+    <mj-section background-color="#5020F8" padding="0">
 			<mj-column>
 				<mj-text
 					align="center"

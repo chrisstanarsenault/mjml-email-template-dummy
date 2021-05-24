@@ -7,20 +7,32 @@ const imageHero = {
 	},
 
 	template: `
-    <mj-hero
-			mode="fluid-height"
-      background-width="600px"
-      background-height="469px"
-      background-url="https://ibb.co/LvDjcSD"
-      background-color="#2a3448"
-      padding="100px 0px"
-      width="100%">
+    <mj-section
+      :background-url="email.image.hero.url"
+			background-size="cover"
+			background-repeat="no-repeat"
+			padding="0"
 		>
-			<mj-text align="center">
-				<h2>{{email.heroHeadline}}</h2>
-			</mj-text>
-			<mj-button>Visit Our Home</mj-button>
-		</mj-hero>
+			<mj-column>
+				<mj-text
+					align="center"
+					color="#FFFFFF"
+					font-size="20px"
+				>
+					<h2>{{email.heroHeadline}} {{email.userName}}</h2>
+				</mj-text>
+				<mj-button
+					background-color="#5020F8"
+					:href="email.creativeLayerLink"
+					font-size="20px"
+					padding="30px 40px"
+					inner-padding="20px 40px"
+					vertical-align="bottom"
+				>
+					Visit Your Home
+				</mj-button>
+			</mj-column>
+		</mj-section>
   `,
 };
 

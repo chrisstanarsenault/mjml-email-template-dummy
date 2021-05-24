@@ -11,10 +11,8 @@ const email = {
         <mj-title>Chris's HTML Template Demo</mj-title>
         <mj-preview>My attempt at an email template.</mj-preview>
         <mj-attributes>
-          <mj-all font-family="Arial, sans-serif" />
-          <mj-section padding="10px" background-color="#fff" />
-          <mj-column padding="0" />
-          <mj-text padding="0" />
+          <mj-all font-family="Arial, sans-serif" padding="0"/>
+          <mj-section background-color="#fff" />
         </mj-attributes>
         <mj-style inline="inline">
           ${css.inlineCSS}

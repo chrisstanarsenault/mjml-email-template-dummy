@@ -3,22 +3,36 @@
 		{
 			"id": 0,
 			"userName": "Chris Arsenault",
-			"heroHeadline": "Welcome to the Family",
+			"heroHeadline": "Welcome",
 			"businessName": "Creative Layer",
 			"image": {
 				"hero": {
-					"url": "https://ibb.co/LvDjcSD",
+					"url": "https://raw.githubusercontent.com/chrisstanarsenault/mjml-email-template-dummy/master/src/assets/Technology-Watch.jpeg",
 					"alt": "a hand pointing at a monitor screen"
 				},
 				"newsletter": {
-					"url": "https://ibb.co/s1hM04k",
+					"url": "https://raw.githubusercontent.com/chrisstanarsenault/mjml-email-template-dummy/master/src/assets/city.png",
 					"alt": "busy city roads"
 				},
 				"logo": {
-					"url": "https://ibb.co/qDPcDXJ",
+					"url": "https://raw.githubusercontent.com/chrisstanarsenault/mjml-email-template-dummy/master/src/assets/Logo.png",
 					"alt": ""
 				}
 			},
+			"socials": {
+					"facebook": {
+						"href": "https://www.facebook.com/getcreativelayer",
+						"alt": "facebook"
+					},
+					"twitter": {
+						"href": "https://www.twitter.com/_creativelayer",
+						"alt": "twitter"
+					},
+					"linkedin": {
+						"href": "https://www.linkedin.com/company/getcreativelayer",
+						"alt": "linkedin"
+					}
+				},
 			"creativeLayerLink": "https://www.creativelayer.com"
 		}
 }
